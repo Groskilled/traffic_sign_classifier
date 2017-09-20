@@ -98,13 +98,13 @@ My final model consisted of the following layers:
 
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used an Adam optimizer cause it usually does well and I am named Adam. I set the batch size to 128 since my GPU is not powerful enough to have a bigger batchsize without having memory problems. Concerning the number of epochs I went for 15 since it allows me to reach the score needed to complete the project, and for the learning rate I had bad results with 0.001, reaching a plateau and probably overshooting and increasing the error at some point.
 
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of ?
-* validation set accuracy of ? 
+* training set accuracy of 
+* validation set accuracy of 93.8% 
 * test set accuracy of ?
 
 If an iterative approach was chosen:
@@ -116,7 +116,9 @@ If an iterative approach was chosen:
 
 If a well known architecture was chosen:
 * What architecture was chosen?
+I went for vgg16.
 * Why did you believe it would be relevant to the traffic sign application?
+I go for a vgg16 everytime I need to work with images since it performs well and weights are available (even if I did not used it here) and it is used for classification, exactly what we need here.
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
  
 
