@@ -74,20 +74,20 @@ My final model consisted of the following layers:
 | Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x64 	|
 | Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x64 	|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x128 				|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x128 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x128 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 16x16x128 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 16x16x128 	|
 | Max pooling	      	| 2x2 stride,  outputs 8x8x256 				|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x256 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x256 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x256 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 8x8x256 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 8x8x256 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 8x8x256 	|
 | Max pooling	      	| 2x2 stride,  outputs 4x4x512 				|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 4x4x512 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 4x4x512 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 4x4x512 	|
 | Max pooling	      	| 2x2 stride,  outputs 2x2x512 				|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512 	|
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512  |
-| Convolution 3x3     	| 3x3 stride, same padding, outputs 32x32x512 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 2x2x512 	|
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 2x2x512  |
+| Convolution 3x3     	| 3x3 stride, same padding, outputs 2x2x512 	|
 | Max pooling	      	| 2x2 stride,  outputs 1x1x512 				|
 | Fully connected		| outputs 4096        									|
 | Fully connected		| outputs 4096        									|
