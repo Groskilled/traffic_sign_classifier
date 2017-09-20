@@ -19,14 +19,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/train_data_viz.png "Visualization"
+[image1]: ./examples/train_data_viz.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./Images/12163.ppm "Traffic Sign 1" 
-[image5]: ./Images/08272.ppm "Traffic Sign 2" 
-[image6]: ./Images/04576.ppm "Traffic Sign 3" 
-[image7]: ./Images/09797.ppm "Traffic Sign 4" 
-[image8]: ./Images/09161.ppm "Traffic Sign 5" 
+[image4]: ./examples/12163.jpg "Traffic Sign 1" 
+[image5]: ./examples/08272.jpg "Traffic Sign 2" 
+[image6]: ./examples/04576.jpg "Traffic Sign 3" 
+[image7]: ./examples/09797.jpg "Traffic Sign 4" 
+[image8]: ./examples/09161.jpg "Traffic Sign 5" 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
