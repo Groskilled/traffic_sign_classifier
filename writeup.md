@@ -19,14 +19,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[image1]: ./examples/train_data_viz.png "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./Images/12163.ppm "Traffic Sign 1"
+[image5]: ./Images/08272.ppm "Traffic Sign 2"
+[image6]: ./Images/04576.ppm "Traffic Sign 3"
+[image7]: ./Images/09797.ppm "Traffic Sign 4"
+[image8]: ./Images/09161.ppm "Traffic Sign 5"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -36,13 +36,13 @@ The goals / steps of this project are the following:
 
 ####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/Groskilled/traffic_sign_classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ###Data Set Summary & Exploration
 
 ####1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the numpy and pandas libraries to calculate summary statistics of the traffic
+I used the numpy and collections libraries to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is 34799
@@ -103,9 +103,9 @@ To train the model, I used an Adam optimizer cause it usually does well and I am
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-* training set accuracy of 
+* training set accuracy of 99.5%
 * validation set accuracy of 93.8% 
-* test set accuracy of ?
+* test set accuracy of 91.65 %
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
